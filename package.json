@@ -1,5 +1,6 @@
 {
   "name": "steffiwebsite",
+  "homepage": "https://thisissteff.github.io/steffiwebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

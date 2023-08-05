@@ -13,7 +13,7 @@ const Nav = () => {
       <label for = "toggler"><i className="uil uil-ellipsis-h"></i></label>
       <div className="menu">
         <ul className="list">
-          <Link to='/'>Home</Link>
+          
           <Link to = '/about'>About</Link>
           <Link to = '/resume'>Resume</Link>
           <Link to= '/projects'>Projects</Link>
