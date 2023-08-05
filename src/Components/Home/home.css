@@ -1,0 +1,238 @@
+
+.home__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    align-items: center;
+
+    margin-top: -5rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0px;
+    text-align: center;
+
+
+    transition: all 0.5s ease-in-out;
+
+
+
+}
+
+.home__content {
+    max-width: 500px;
+    padding-top: 0rem;
+    column-gap: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    
+
+
+
+
+
+}
+
+.home__title {
+  font-size: 70px;
+  color: #1D267D;
+  align-items: center;
+  margin-bottom: var(--mb-0-25);
+  line-height: 1.5;
+
+  transition: cubic-bezier(0.42, 0.0, 1.0, 1.0)
+
+}
+
+.button {
+  margin-top: 30px;
+  margin-left: 30px;
+ 
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+
+
+}
+
+.home__image {
+    align-items: center;
+    background: url(../../assets/steffi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgb(255 255 255 /30%);
+    order: 1;
+    justify-self: right;
+    width: 550px;
+    height: 550px;
+    margin-top: 50px;
+    margin-right:150px;
+    animation: profile__animate 8s ease-in-out infinite 1s;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+    
+
+}
+
+
+
+@keyframes profile__animate {
+    
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+
+
+.home__scroll-arrow {
+    font-size:2rem;
+    color: var(--text-color);
+    animation: scroll 3s ease-out infinite;
+}
+
+.home__scroll-name {
+  color: var(--text-color);
+}
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(1em);
+    }
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1189px) {
+  .home__container {
+    margin-left: 3rem;
+  }
+  .home__content {
+    grid-template-columns: 100px repeat(2, 1fr);
+    column-gap: 1.25rem;
+  }
+
+
+
+
+}
+@media screen and (max-width: 1099px) {
+  .home__container {
+    margin-left: 0rem;
+  }
+  .home__content {
+    grid-template-columns: 100px repeat(2, 1fr);
+    column-gap: 1.25rem;
+  }
+
+  .home__image {
+
+    width: 400px;
+    height: 400px;
+  }
+
+
+
+}
+
+
+/* For medium devices */
+@media screen and (max-width: 959px) {
+    .home__container {
+      display: flex;
+      flex-direction: column-reverse; /* Reverse the order of elements */
+      align-items: center;
+      justify-content: center;
+      margin-top: -5rem;
+      width:100%;
+    }
+  
+    .home__title {
+      font-size: 50px;
+      text-align: center;      
+      align-items: center; /* Center the title horizontally */
+      justify-content: center;
+      margin-right:0rem;
+
+    }
+
+  
+    .home__content {
+      display: flex;
+      flex-direction: column;
+      padding-top: 3.5rem;
+      align-items: center; /* Center the content horizontally */
+      
+    }
+    
+  
+    .home__image {
+      box-shadow: inset 0 0 0 6px rgb(255, 255, 255 / 30%);
+      width: 500px;
+      height: 500px;
+      margin-bottom: 20px;
+      margin-left: 11.25rem;
+    }
+
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .home__container {
+      margin-top: 0rem;
+    }
+
+    .home__image {
+      width: 400px;
+      height: 400px;
+    }
+  }
+/* For small devices */
+@media screen and (max-width: 435px) {
+  .home__container {
+    width: 100%;
+    transform: translateY(20%);
+  }
+
+  .home__content {
+    margin: 0 auto;
+  }
+
+  .home__image {
+    margin: 0 auto;
+  }
+   
+
+
+}
+
+@media screen and (max-width: 429px) {
+
+
+  .home__image {
+    margin-right: 0rem;
+  }
+  
+
+
+
+}
+

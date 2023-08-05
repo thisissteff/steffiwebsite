@@ -1,0 +1,130 @@
+.contact {
+    margin-top: 3rem;
+}
+.contact__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact__form {
+    margin-top:-0.5rem;
+    width: 450px;
+}
+
+.contact__form-div {
+    position: relative;
+    margin-bottom: var(--mb-2);
+    height: 4rem;
+}
+
+.contact__form-input {
+
+    top:0;
+    left: 1px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(0,0,0,0.3);
+    background: none;
+    color: var(--text-color);
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    z-index: 1;
+}
+
+.contact__form-tag {
+    position: absolute;
+    top: -1.2rem;
+    left: 1.5rem;
+    font-size: var(--smaller-font-size);
+    padding:0.25rem;
+    background-color: var(--body-color);
+    z-index: 10;
+}
+
+.contact__form-area {
+    height: 8rem;
+    
+}
+.contact__form-area textarea {
+    resize: none;
+}
+
+.contact__button {
+    margin-left: 10rem;
+    height: 3rem;
+    width: 9rem;
+    justify-content: center;
+    background-image: linear-gradient(to left, #D4ADFC, #5C469C, #1D267D, #0C134F)
+    
+}
+
+.contact__icon {
+    padding-left: 0.2em;
+    font-size: 30px;
+
+}
+
+.contact__button:active {
+    background-image: none;
+    background-color: #D4ADFC;
+}
+
+.contact__button:focus {
+    background-image: none;
+    background-color: #D4ADFC;
+}
+
+
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 991px) {
+    .contact__container {
+        column-gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .contact__info, 
+    .contact__button {
+        justify-content: center;
+    }
+
+    .contact__form {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact__info {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__form {
+        margin-top:-0.5rem;
+        width: 400px;
+    }
+
+    .contact__button {
+        margin-left: 9rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .contact__form {
+        width: 350px;
+    }
+
+    .contact__button {
+        margin-left: 7rem;
+    }
+
+}
+

@@ -1,0 +1,167 @@
+.spotify__img, 
+.payment__img {
+    z-index: 1;
+
+}
+.works {
+    top: 100px; 
+    
+}
+
+.works__title {
+    margin-top: -3rem;
+}
+
+.works__resume {
+    margin-top: -0.5rem;
+}
+
+.works__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    align-items: center;
+
+
+}
+
+.button {
+    transition: 0.4s;
+    cursor: pointer;
+    background-size: 200%;
+    height: 470px;
+    width: 25rem;
+    margin-top: -1rem;
+}
+
+.button__one, 
+.button__two, 
+.button__three {
+    background-image: linear-gradient(to left, #D4ADFC, #5C469C, #1D267D, #0C134F);
+}
+
+
+.button:hover {
+    background-position: right;
+}
+
+
+.works__one__name,
+.works__two__name, 
+.works__three__name {
+    font-size: 22.5px;
+    margin-top: 1em;
+    text-decoration: underline;
+    color: var(--body-color);
+}
+
+.works__one__content, 
+.works__two__content, 
+.works__three__content {
+    margin-top: 1em;
+    font-size: 15px;
+
+}
+
+
+
+.works__two {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.works__three {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+/*=============== BREAKPOINTS ===============*/
+
+
+
+
+@media screen and (max-width: 768px) {
+    .works {
+        margin-top: 40px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 663px) {
+
+
+    .button {
+        height: 400px;
+        width: 400px;
+        justify-content: center;
+    }
+
+    .spotify__img, 
+    .payment__img, 
+    .churn__img {
+        height: 200px;
+        width: 350px;
+        align-self: center;
+    }  
+
+    .works__one__content, 
+    .works__two__content, 
+    .works__three__content {
+        margin-top: 0em;
+        font-size: 14px;
+
+    }
+
+    .works__one__name,
+    .works__two__name, 
+    .works__three__name {
+        font-size: 20px;
+        margin-top: 0.5em;
+        text-decoration: underline;
+        color: var(--body-color);
+    }
+}
+
+@media screen and (max-width: 429px) {
+    .works {
+        margin-top: 30px;
+        margin-left: -2em;
+    }
+    
+    .spotify__img, 
+    .payment__img, 
+    .churn__img {
+        height: 200px;
+        width: 350px;
+        align-self: center;
+    }  
+
+    .button {
+        height: 450px;
+    }
+
+}
+
+@media screen and (max-width: 405px) {
+    .spotify__img, 
+    .payment__img, 
+    .churn__img {
+        display: none;
+    }  
+
+    .button {
+        height: 220px;
+        width: 350px;
+        padding-top: 0px;
+        
+    }
+}
