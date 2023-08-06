@@ -16,7 +16,7 @@ const Home = () => {
     className='section'>
       <div
       transition={transition1}
-      className="home__container" id="home">
+      className="home__container" >
 
           <div className="home__content">
 

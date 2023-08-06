@@ -14,7 +14,6 @@ const App = () => {
       
       <Router>
         <Nav />
-        <Home />
         <AnimRoutes />
 
       </Router>
