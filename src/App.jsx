@@ -1,6 +1,7 @@
 import React from 'react';
 import "./App.css";
 import Nav from './Components/Nav/Nav';
+import Home from './Components/Home/Home';
 
 import AnimRoutes from './Components/AnimRoutes/AnimRoutes';
 
@@ -13,6 +14,7 @@ const App = () => {
       
       <Router>
         <Nav />
+        <Home />
         <AnimRoutes />
 
       </Router>

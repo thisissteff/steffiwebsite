@@ -15,6 +15,7 @@
     font-size: 40px;
     text-align:center;
     transition: all 0.5s ease-in-out;
+    
 
 
 }
@@ -26,6 +27,7 @@
 
 .about__data {
   margin-top: 3em;
+  
 }
 
 
@@ -48,11 +50,13 @@
     border-radius: 1.5rem;
     transition: all 0.5s ease-in-out;
     
+    
 }
 
 .about__description {
     margin-top: -5rem;
     transition: all 0.5s ease-in-out;
+    z-index: 10;
 }
 
 .social__name {
