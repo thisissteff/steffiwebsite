@@ -9,13 +9,12 @@ import {transition1} from '../transitions';
 const Home = () => {
   return (
     <motion.section 
-    initial = {{opacity: 0}}
     animate = {{opacity: 1}}
     exit = {{ opacity: 0}}
-   
+    transition={transition1}
     className='section'>
       <div
-      transition={transition1}
+      
       className="home__container" >
 
           <div className="home__content">

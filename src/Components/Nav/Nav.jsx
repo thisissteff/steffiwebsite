@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
   return (
     <nav className="navbar">
-      <Link className = "logo" to='/'>STEFFI LIM</Link>
+      <Link className = "logo" to='/steffiwebsite'>STEFFI LIM</Link>
       <input type = "checkbox" id="toggler"></input>
       <label for = "toggler"><i className="uil uil-ellipsis-h"></i></label>
       <div className="menu">
