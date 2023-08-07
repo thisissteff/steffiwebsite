@@ -243,7 +243,7 @@
 
 }
 
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 425px) {
 
 
 
@@ -254,7 +254,12 @@
 
   .home__title {
     font-size: 30px;
+    margin-left:-6rem;
 
+  }
+
+  .home__scroll {
+    margin-left:-5rem;
   }
 
   .home__image {
