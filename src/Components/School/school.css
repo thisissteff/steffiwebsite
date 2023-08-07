@@ -326,6 +326,8 @@ ul.leader__list {
         font-size: 15px;
     }
 
+
+
     .school__content {
         inline-size: 400px;
         overflow-wrap: break-word;
@@ -353,7 +355,7 @@ ul.leader__list {
 
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 944px) {
     .summary__name, 
     .school__degree, 
     .exp__position, 
@@ -364,11 +366,29 @@ ul.leader__list {
 
     
     }
+    .summary__content {
+        width: 300px;
+        overflow-wrap: break-word;
+        
+    }
+
+    .summary__subtitle {
+        line-height: 20px;
+        padding-top: 10px
+    
+    }
 
     .school__content {
         inline-size: 350px;
         overflow-wrap: break-word;
+        height: 15em;
         
+        
+    }
+
+
+    .school__name {
+        line-height: 20px;
     }
 
     .exp__title {
