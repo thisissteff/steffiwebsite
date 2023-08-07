@@ -266,11 +266,30 @@ ul.leader__list {
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 1264px) {
+@media screen and (max-width: 1317px) {
     .school__content {
         inline-size: 400px;
         overflow-wrap: break-word;
+        height: 20em;
         
+        
+    }
+
+    .school__name {
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1232px) {
+    .summary__content {
+        inline-size: 300px;
+        overflow-wrap: break-word;
+  
+    }
+
+    .summary__subtitle {
+        line-height: 20px;
+        padding-top: 15px;
     }
 }
 
@@ -337,10 +356,11 @@ ul.leader__list {
     .exp__content {
         inline-size: 400px;
         overflow-wrap: break-word;
+        height: 30em;
     }
 
     .leader__title {
-        transform: translateY(400%);
+        transform: translateY(300%);
     }
 
     .leader__content {
@@ -548,6 +568,7 @@ ul.leader__list {
 @media screen and (max-width: 686px) {
     .qualification__container {
         word-wrap: break-word;
+        margin-left:-5em;
     }
 
     .summary__name,
@@ -558,7 +579,7 @@ ul.leader__list {
     }
 
     .summary__title {
-        margin-left: -10rem;
+        margin-left: -3rem;
         font-size:20px;
     }
 
@@ -601,17 +622,10 @@ ul.leader__list {
 
     .school__title {
         font-size: 20px;
-        margin-left: -10rem;
-        overflow-wrap: break-word;
-        overflow: hidden;
+        margin-left: -3rem;
+        
     }
 
-    .school__name {
-        overflow-wrap: break-word;
-        overflow: hidden;
-        word-wrap: break-word;
-       
-    }
 
     .qualification__exp {
         grid-column-start: 1;
@@ -624,9 +638,9 @@ ul.leader__list {
     }
 
     .exp__title {
-        margin-left:12rem;
+        margin-left:10rem;
         font-size: 20px;
-        margin-left: 7.5rem;
+       
         margin-top: 0rem;
         
     }
@@ -650,7 +664,7 @@ ul.leader__list {
 
 
     .leader__title {
-        margin-left:7.5rem;
+        margin-left:10rem;
         font-size: 20px;
         margin-top: -12rem;
 
@@ -668,6 +682,9 @@ ul.leader__list {
 }
 
 @media screen and (max-width: 429px) {
+    .qualification__container {
+        margin-left: 20px;
+    }
     .summary__title,
     .school__title,
     .exp__title,
@@ -705,6 +722,7 @@ ul.leader__list {
 
     .school__title {
         margin-top: 3.5rem;
+        margin-left: -11rem;
         
     }
 
@@ -804,6 +822,7 @@ ul.leader__list {
 }
 
 @media screen and (max-width: 375px) { 
+    
     .summary__content, 
     .exp__content, 
     .school__content, 
@@ -822,6 +841,8 @@ ul.leader__list {
         padding-top:5px;
     }
 
+
+
     ul.summary__list {
         line-height: 20px;
         padding-top:5px;
@@ -838,6 +859,8 @@ ul.leader__list {
         font-size: 12px;
         line-height: 2px;
     }
+
+    
 
     .school__name {
         line-height: 20px;
@@ -868,7 +891,7 @@ ul.leader__list {
     .leader__content {
         height: 620px;
         margin-top: -3rem;
-        margin-right:-1px;
+        margin-right:-0px;
     }
 
     .leader__position {
