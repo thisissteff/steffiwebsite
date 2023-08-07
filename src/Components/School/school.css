@@ -526,13 +526,15 @@ ul.leader__list {
 
 }
 @media screen and (max-width: 686px) {
-    
+    .qualification__container {
+        word-wrap: break-word;
+    }
 
     .summary__name,
     .school__degree,
     .exp__position,
     .leader__position {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .summary__title {
@@ -566,27 +568,36 @@ ul.leader__list {
         grid-row: 2;
         margin-top: -2rem;
         align-content: center;
+        margin-left: 10rem;
+        
     }
 
+
     .school__content {
-        inline-size: 800px;
-        overflow-wrap: break-word;
-        position: static;
-        margin-top: 1rem;
-        margin-left: 12rem;
-        height: 230px;
+        width: 400px;
+        margin-right: 90px;
+        height:300px;
     }
 
     .school__title {
         font-size: 20px;
-        margin-left: 1.5rem;
+        margin-left: -10rem;
+        overflow-wrap: break-word;
+        overflow: hidden;
+    }
+
+    .school__name {
+        overflow-wrap: break-word;
+        overflow: hidden;
+        word-wrap: break-word;
+       
     }
 
     .qualification__exp {
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row: 3;
-        margin-top: -7rem;
+        margin-top: -2rem;
         align-content: center;
         margin-left: 5rem;
 
@@ -596,13 +607,14 @@ ul.leader__list {
         margin-left:12rem;
         font-size: 20px;
         margin-left: 7.5rem;
+        margin-top: 0rem;
         
     }
 
     .exp__content {
         inline-size: 400px;
         overflow-wrap: break-word;
-        height: 25rem;
+        height:30rem;
  
     }
 
@@ -610,7 +622,7 @@ ul.leader__list {
         grid-column-start: 1;
         grid-column-end: 1; 
         grid-row: 4;
-        margin-top: 9rem;
+        margin-top: 5rem;
         align-content: center;
         margin-left: 5rem;
         
@@ -628,7 +640,7 @@ ul.leader__list {
     .leader__content {
         inline-size: 400px;
         overflow-wrap: break-word;
-        margin-top:0rem;
+        margin-top:1rem;
         height: 48rem;
 
         
@@ -659,7 +671,7 @@ ul.leader__list {
         margin-left: -9.75rem;
         margin-top: -1rem;
         border: none;
-        background-color: var(--title-color);
+        background-color: #1D267D;;
         color: var(--container-color);
         opacity: 0.7;
         height: 200px;
@@ -671,33 +683,33 @@ ul.leader__list {
 
     .school__title {
         margin-top: 3.5rem;
-        margin-left: -0.5rem;
+        
     }
 
     .school__content {
         inline-size: 400px;
-        margin-left: 0.5rem;
+        margin-left: -70px;
         margin-top: 1rem;
         border: none;
-        background-color: var(--title-color);
+        background-color: #1D267D;;
         color: var(--container-color);
         opacity: 0.7;
-        height: 250px;
+        height: 300px;
         width: 350px;
         border-radius: 20px;
     }
 
     .exp__title {
-        margin-top: 4.5rem;
+        margin-top: 0.5rem;
         margin-left: 3.5rem;
     }
 
     .exp__content {
         inline-size: 400px;
-        margin-left: -4.5rem;
-        margin-top: 1rem;
+        margin-left: -5rem;
+        margin-top: 0rem;
         border: none;
-        background-color: var(--title-color);
+        background-color: #1D267D;;
         color: var(--container-color);
         opacity: 0.7;
         height: 450px;
@@ -708,28 +720,29 @@ ul.leader__list {
     }
 
     .leader__title {
-        margin-top: -19rem;
+        margin-top: -10.7rem;
         margin-left: 3.75rem;
     }
 
     .leader__content {
         inline-size: 400px;
         margin-left: -4.5rem;
-        margin-top: 1rem;
+        margin-top: -1.5rem;
         border: none;
-        background-color: var(--title-color);
+        background-color: #1D267D;;
         color: var(--container-color);
         opacity: 0.7;
-        height: 775px;
+        height: 700px;
         width: 350px;
         border-radius: 20px;
         padding-right: 10px;
 
     }
 
-    ul.summary__list, 
+  
     ul.exp__list, 
-    ul.leader__list {
+    ul.leader__list, 
+    .school__spec {
         margin-left: 0.35em;
         font-size: 12px;
         margin-top: 0.5em;
@@ -742,5 +755,114 @@ ul.leader__list {
         display: none;
         
     }
+}
+
+@media screen and (max-width: 375px) { 
+    .summary__content, 
+    .exp__content, 
+    .school__content, 
+    .leader__content {
+        width: 280px;
+
+    }
+
+    .summary__content {
+        height: 150px;
+    }
+
+    .summary__subtitle {
+        font-size: 12px;
+        line-height: 20px;
+        padding-top:5px;
+    }
+
+    ul.summary__list {
+        line-height: 20px;
+        padding-top:5px;
+    }
+
+    .school__content {
+        height: 200px;
+    }
+
+    .school__year, 
+    .school__icon, 
+    .exp__year, 
+    .leader__year {
+        font-size: 12px;
+        line-height: 2px;
+    }
+
+    .school__name {
+        line-height: 20px;
+        padding-top: 15px;
+    }
+
+    .school__spec {
+        transform: translateY(-20%);
+        
+    }
+
+    .exp__content {
+        height: 450px;
+    }
+
+    .exp__position {
+        font-size: 12px;
+    }
+
+    .exp__name {
+        line-height: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .leader__timeline {
+        padding-bottom: 300px;
+    }
+
+    .leader__content {
+        height: 620px;
+        margin-top: -3rem;
+        margin-right:-1px;
+    }
+
+    .leader__position {
+        font-size: 12px;
+    }
+
+    .leader__name {
+        line-height: 20px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+
+    .summary__name, 
+    .school__degree, 
+    .exp__position, 
+    .leader__position {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .school__icon {
+        font-size: 17px;
+    }
+
+    ul.exp__list,
+    ul.summary__list, 
+    ul.leader__list, 
+    .school__spec {
+        margin-left: 0.35em;
+        font-size: 11px;
+        margin-top: 0.5em;
+    }
+
+    .exp__title, 
+    .leader__title {
+        margin-left: 20px;
+    }
+
 }
   

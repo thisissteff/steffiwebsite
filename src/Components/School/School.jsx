@@ -40,7 +40,8 @@ const School = () => {
               <div className="summary__content">
                 <div>
                   <h3 className="summary__name">STEFFI LIM</h3>
-                  <p className="summary__subtitle"><em>Driven</em></p>
+                  <p className="summary__subtitle"><em>A highly driven, motivated 
+                    and passionate individual</em></p>
                   <ul class="summary__list">
                     <li>Email: steffilimenqi@outlook.com</li>
                     <li>Singapore</li>
@@ -101,7 +102,7 @@ const School = () => {
 
 
                   <p className="exp__name">
-                    <em>Land Transport Authority (LTA), Singapore, SG</em>
+                    Land Transport Authority (LTA), Singapore, SG
                   </p>
 
                   <ul class="exp__list">

@@ -131,25 +131,6 @@
     }
 }
 
-@media screen and (max-width: 429px) {
-    .works {
-        margin-top: 30px;
-        margin-left: -2em;
-    }
-    
-    .spotify__img, 
-    .payment__img, 
-    .churn__img {
-        height: 200px;
-        width: 350px;
-        align-self: center;
-    }  
-
-    .button {
-        height: 450px;
-    }
-
-}
 
 @media screen and (max-width: 405px) {
     .spotify__img, 
@@ -158,10 +139,34 @@
         display: none;
     }  
 
+    .works__one__content, 
+    .works__two__content,
+    .works__three__content {
+        line-height: 25px;
+        padding-top: 20px;
+    }
+
     .button {
         height: 220px;
         width: 350px;
         padding-top: 0px;
         
     }
+}
+
+@media screen and (max-width: 375px) {
+    .button__one, 
+    .button__two, 
+    .button__three {
+        width: 290px;
+    }
+
+    .works__one__content, 
+    .works__two__content,
+    .works__three__content {
+        font-size: 12px;
+    }
+
+
+
 }

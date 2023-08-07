@@ -128,3 +128,13 @@
 
 }
 
+@media screen and (max-width: 375px) {
+    .contact__form {
+        width: 250px;
+    }
+
+    .contact__button {
+        margin-left: 3rem;
+        padding-top:15px;
+    }
+}

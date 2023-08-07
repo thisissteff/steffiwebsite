@@ -199,6 +199,24 @@
       height: 400px;
     }
   }
+
+@media screen and (max-width: 507px) {
+  .home__image {
+    width: 300px;
+    height: 300px;
+  }
+  .home__container {
+    margin-top: -1rem;
+  }
+
+  .home__title {
+    margin-top: -3rem;
+  }
+
+  .home__scroll {
+    margin-top: -1rem;
+  }
+}
 /* For small devices */
 @media screen and (max-width: 435px) {
   .home__container {
@@ -213,6 +231,13 @@
   .home__image {
     margin: 0 auto;
   }
+
+  .home__title {
+    margin-left: -3rem;
+  }
+  .home__scroll {
+    margin-left: -4rem;
+  }
    
 
 
@@ -221,12 +246,28 @@
 @media screen and (max-width: 429px) {
 
 
-  .home__image {
-    margin-right: 0rem;
+
+  .home__scroll, 
+  .home__title {
+    margin-left: -140px;
   }
-  
 
+  .home__title {
+    font-size: 30px;
 
+  }
+
+  .home__image {
+    width: 250px;
+    height: 250px;
+  }
 
 }
 
+@media screen and (max-width: 320px) {
+  .home__scroll, 
+  .home__title {
+    margin-left: -180px;
+  }
+
+}
