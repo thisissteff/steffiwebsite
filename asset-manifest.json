@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/steffiwebsite/static/css/main.6df78e9a.css",
+    "main.css": "/steffiwebsite/static/css/main.6896c910.css",
     "main.js": "/steffiwebsite/static/js/main.e9774a4e.js",
     "static/media/steffi.jpg": "/steffiwebsite/static/media/steffi.e65429f10b291e38801c.jpg",
     "static/media/defaultpayment.jpeg": "/steffiwebsite/static/media/defaultpayment.9b111a9a04187db5d6b9.jpeg",
@@ -8,11 +8,11 @@
     "static/media/STEFFI_LIM_CV.pdf": "/steffiwebsite/static/media/STEFFI_LIM_CV.70e06ba244996741cf46.pdf",
     "static/media/customerchurn.jpeg": "/steffiwebsite/static/media/customerchurn.c4306f94d2026ae48009.jpeg",
     "index.html": "/steffiwebsite/index.html",
-    "main.6df78e9a.css.map": "/steffiwebsite/static/css/main.6df78e9a.css.map",
+    "main.6896c910.css.map": "/steffiwebsite/static/css/main.6896c910.css.map",
     "main.e9774a4e.js.map": "/steffiwebsite/static/js/main.e9774a4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6df78e9a.css",
+    "static/css/main.6896c910.css",
     "static/js/main.e9774a4e.js"
   ]
 }
