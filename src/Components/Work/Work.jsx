@@ -61,7 +61,7 @@ const Projects = () => {
            className="works__two button button__two" >
             <a href="https://github.com/thisissteff/customer_churn_prediction">
               <img src={churn} alt="" className="churn__img" />
-              <h3 className="works__two__name">Customer Churn Prediction</h3>
+              <h3 className="works__two__name">Telcom Churn Prediction</h3>
             </a>
             <p className="works__two__content">Machine Learning project to identify and predict churn of customers 
             based on behaviour features.</p>
