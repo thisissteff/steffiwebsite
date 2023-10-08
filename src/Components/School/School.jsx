@@ -1,6 +1,6 @@
 import React from 'react';
 import "./school.css";
-import CV from "../../assets/STEFFI_LIM_CV.pdf";
+import CV from "../../assets/steffi_lim.pdf";
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 
@@ -27,7 +27,7 @@ const School = () => {
       transition={transition1}
        className="section__subtitle"> 
         <a download="" href={CV} className="qualification__resume" >
-          Click<em> here</em> to download!
+          Click<em> here</em> for my CV!
           <i class="uil uil-file-landscape-alt about__icon"></i>
         </a>
       </motion.span>
